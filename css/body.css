@@ -1,0 +1,134 @@
+.mui_tit {
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    height: .3rem;
+    margin: .2rem .16rem .1rem;
+}
+
+.c_txt1 {
+    color: rgba(26,26,26,1);
+}
+
+.mui_tit__text {
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: .18rem;
+    font-weight: 700;
+}
+
+.c_txt2 {
+    color: rgba(26,26,26,.5);
+}
+
+.mui_tit__more {
+    position: absolute;
+    top: .05rem;
+    right: -.06rem;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    height: .2rem;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.mui_scroll.scroll_x {
+    margin-top: -.1rem;
+}
+.mui_scroll {
+    overflow: hidden;
+}
+
+#mui_scroll_bd {
+    margin-bottom: -.1rem;
+    padding: .1rem 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.mui_list.horizontal {
+    margin-right: 0;
+    white-space: nowrap;
+}
+.mui_list {
+    margin: 0 .12rem;
+    font-size: 0;
+}
+
+.mui_list.horizontal .mui_list__item {
+    margin-bottom: 0;
+    width: auto;
+}
+
+.mui_list__item {
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: .14rem;
+    font-size: .12rem;
+}
+li {
+    list-style: none;
+}
+
+.mui_list.horizontal .mui_list__box {
+    width: 1.09rem;
+}
+.mui_list__box {
+    margin: 0 .04rem;
+}
+
+.mui_list__media {
+    position: relative;
+    height: 1rem;
+}
+
+.mui_list__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .08rem;
+}
+
+.mui_cover_count {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 17px;
+    min-width: 14px;
+    padding: 0 7px;
+    border-radius: 9px;
+    background: rgba(0,0,0,.4);
+}
+
+
+.mui_list.tit_wrap .mui_list__tit {
+    max-height: .34rem;
+}
+
+.mui_list.desc_wrap .mui_list__desc, .mui_list.tit_wrap .mui_list__tit {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.c_txt1 {
+    color: rgba(26,26,26,1);
+}
+.mui_list__tit {
+    min-height: .17rem;
+    margin-top: .08rem;
+    line-height: .17rem;
+    font-size: .13rem;
+}
