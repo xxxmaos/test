@@ -22,13 +22,21 @@ const scale = window.innerWidth / designWidth; //计算当前屏幕的宽度与�
 // 根据屏幕宽度 动态计算根元素的 字体大小
 document.documentElement.style.fontSize = scale * remPx + "px";
 
-const recommends = document.querySelector(".mui_tab__text");
-const ranks = document.querySelector(".mui_tab__text");
+const btns = document.querySelectorAll(".mui_tab__btn");
+const recommends = btns[0];
+const ranks = btns[1];
+const search = document.querySelector(".search_bar__input");
 
-ranks.addEventListener(click, function () {
+console.log(ranks);
+
+ranks.addEventListener("click", function () {
   window.location.href = "list.html";
 });
 
-recommends.addEventListener(click, function () {
+recommends.addEventListener("click", function () {
   window.location.href = "main.html";
+});
+
+search.addEventListener("click", function () {
+  window.location.href = "search.html";
 });
